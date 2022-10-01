@@ -1,0 +1,38 @@
+#hero {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    text-align: center;
+    width: 60%;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero h1 span {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+    background-color: lightgreen;
+    color: black;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 150px;
+    z-index: 20;
+}
+
+p {
+    color: white;
+}
