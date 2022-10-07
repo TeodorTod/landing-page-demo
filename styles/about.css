@@ -1,0 +1,54 @@
+#about {
+    padding: 64px 1rem;
+}
+
+
+#about .title,
+#about .mainDescription {
+    text-align: center;
+}
+
+#about .title {
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+#about .mainDescription {
+    width: 70%;
+    margin: 0 auto 4rem auto;
+}
+
+#about .subTitle {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+#about .subTitle.second {
+    text-align: right;
+}
+
+#about .desc img {
+    max-width: 400px;
+    padding-bottom: 2rem;
+}
+
+#about .desc {
+    text-align: justify;
+}
+
+#about .desc.first img {
+   float: left;
+   padding-right: 2rem;
+   padding-bottom: 2rem;
+}
+
+#about .desc.second img {
+    float: right;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ #about .desc.first {
+    margin-bottom: 3rem;
+ }

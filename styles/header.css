@@ -1,0 +1,40 @@
+.header {
+    background-color: #c3dafe;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    width: 40px;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out;
+}
+
+.navigation ul li a:hover {
+    color: #805ad5;
+}
